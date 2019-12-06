@@ -9,8 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h3>Welcome to the first ASP.NET app</h3>
-            
+            <h3>Welcome to the first ASP.NET app
+            </h3>
+            <asp:Label ID="LblWelcome" runat="server"></asp:Label> <br />
                 Enter First Name:<asp:TextBox ID="FirstName" runat="server" Height="16px"></asp:TextBox>
             
             

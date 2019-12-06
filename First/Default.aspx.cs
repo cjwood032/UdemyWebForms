@@ -11,7 +11,14 @@ namespace First
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (DateTime.Now.Hour <12)
+            {
+                LblWelcome.Text = "good morn";
+            }
+            else
+            {
+                LblWelcome.Text = "good eve";
+            }
         }
 
         protected void Submit_Click(object sender, EventArgs e)
